@@ -1,0 +1,38 @@
+/* Video wrapper */
+.mh-video-wrapper {
+  position: relative;
+  text-align: center;
+  padding-bottom: 56.25%;
+  margin-bottom: 24px;
+  @include clearfix();
+  object,
+  embed,
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.single-estate {
+  .mh-video-wrapper {
+    padding-top: 0;
+    .mejs-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding-bottom: 56.25%;
+      height: initial !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    .mejs-container-fullscreen {
+      max-height: 100%;
+    }
+    .wp-video {
+      width: 100% !important;
+    }
+  }
+}
