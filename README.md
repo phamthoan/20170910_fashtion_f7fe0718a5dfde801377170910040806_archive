@@ -1,4 +1,4 @@
-1. cách cài.
+         cách cài.
 2. Download file về giải nén
 3. Rồi vào file 20170910_fashtion_f7fe0718a5dfde801377170910040806_archive nhấn tổ hợp ctrl + A để đánh dấu tất cả rồi nén tất file đó
 4. thành 1 file .zip với tên 20170910_fashtion_f7fe0718a5dfde801377170910040806_archive.zip
